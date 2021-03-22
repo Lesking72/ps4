@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2021-03-22 14:57 EDT
+# 2021-03-22 16:54 EDT
 
 bg.jpg
 index.html
@@ -18,6 +18,7 @@ payloads/Disable-Updates.js
 payloads/Dumper.js
 payloads/Enable-Browser.js
 payloads/Enable-Updates.js
+payloads/exit-idu.js
 payloads/Fan-Threshold.js
 payloads/FTP.js
 payloads/goldhen.js
