@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2021-03-22 16:54 EDT
+# 2021-03-22 17:15 EDT
 
 bg.jpg
 index.html
@@ -12,24 +12,24 @@ netcat_legacy/ps4.js
 netcat_legacy/rop.js
 netcat_legacy/userland.js
 netcat_legacy/utils.js
-payloads/App2USB.js
-payloads/Backup.js
-payloads/Disable-Updates.js
-payloads/Dumper.js
-payloads/Enable-Browser.js
-payloads/Enable-Updates.js
+payloads/app2usb.js
+payloads/backup.js
+payloads/disable-updates.js
+payloads/dumper.js
+payloads/enable-browser.js
+payloads/enable-updates.js
 payloads/exit-idu.js
-payloads/Fan-Threshold.js
-payloads/FTP.js
+payloads/fan-threshold.js
+payloads/ftp.js
 payloads/goldhen.js
-payloads/History-Blocker.js
-payloads/Kernel-Clock.js
-payloads/Kernel-Dumper.js
+payloads/history-blocker.js
+payloads/kernel-clock.js
+payloads/kernel-dumper.js
 payloads/linux.js
 payloads/linux-3gb.js
 payloads/mira.js
-payloads/Restore.js
-payloads/RIF-Renamer.js
+payloads/restore.js
+payloads/rif-renamer.js
 payloads/vtx-hen.js
 utils/702.js
 utils/int64.js
