@@ -1,0 +1,1 @@
+window.location.replace("https://lesking72.github.io/ps4/");
