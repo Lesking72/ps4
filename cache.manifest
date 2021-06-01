@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2021-04-09 13:16 EDT
+# 2021-05-31 23:55 EDT
 
 bg.jpg
 index.html
@@ -18,12 +18,10 @@ payloads/disable-updates.js
 payloads/dumper.js
 payloads/enable-browser.js
 payloads/enable-updates.js
-payloads/exit-idu.js
 payloads/fan-threshold.js
 payloads/ftp.js
 payloads/goldhen.js
 payloads/history-blocker.js
-payloads/kernel-clock.js
 payloads/kernel-dumper.js
 payloads/linux.js
 payloads/linux-3gb.js

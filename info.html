@@ -9,68 +9,77 @@
 			h2 {
 				margin-bottom: 0;
 			}
-			.ind {
-				margin-left: 3.5em;
-			}
         </style>
     </head>
     <body>
-        <h1>Questions you probably don't have</h1>
+        <h1>Info/FAQ</h1>
+			<h2>What is this?</h2>
+			<ul>
+				This host is based on <a href="https://github.com/sleirsgoevy/ps4jb">https://github.com/sleirsgoevy/ps4jb</a> for 7.02 with GoldHEN and Al Azif's<br>
+				utility payloads added in. The success rate will be exactly the same as any other host, be it<br>
+				Al Azif, Night-King, DarkModderVC or Hakkuraifu because they all use the same exploit.
+			</ul>
+			<h2>Should I update to firmware X?</h2>
+			<ul>
+				Lower than 5.05: Update to 5.05.<br>
+				5.50 to 6.71: Update to 6.72.<br>
+				7.00 and 7.01: Update to 7.02.<br>
+				7.50 and 7.51: Update to 7.55.<br>
+				If you're on 5.05/6.72/7.02, stay on that firmware.
+			</ul>
             <h2>Does this cache for offline use?</h2>
-				<div class=ind>
+				<ul>
 					Yes. Cache status is displayed in the footer.<br>
 					If you have cache issues, clear ALL your browser data, power off completely and try again.
-				</div>
+				</ul>
 			<h2>Do I really need to restart after each failure?</h2>
-					<ul>
-						<li>If you get an "out of memory" error, click OK. This error will not harm your console.</li>
-						<li>If you get "failed to set up a relative ___ primitive," restart.</li>
-						<li>If you get "failed to find slave," turn the console off using the power button, without closing the dialog box.<br>
-						-Using the power button seems to have the lowest chance of panics for this error.</li>
-					<br>
-						<li>If you keep getting OOM, back out of the browser and open the settings menu, then go back to the browser.<br>
-					This causes the webkit process to restart. Alternatively, power off completely and try again.</ul>
-					</ul>
+				<ul>
+					<li>If you get an "out of memory" error, click OK. This error will not harm your console.</li>
+					<li>If you get "failed to set up a relative ___ primitive," restart.</li>
+					<li>If you get "failed to find slave," turn the console off using the power button, without closing the dialog box.<br>
+					<li>If you keep getting OOM, back out of the browser and open the settings menu, then go back to the browser.<br>
+					-This causes the webkit process to restart. Alternatively, power off completely and try again.</li>
+					<li>Powering off completely seems work better for me than restarting. This is based purely on my experience, your mileage may vary.</li>
+				</ul>
 			<h2>Should the screen go black when starting Mira?</h2>
-				<div class=ind>
+				<ul>
 					Mira restarts the shell when it loads, this behavior is normal.
-				</div>
+				</ul>
 			<h2>Whats X in the debug settings?</h2>
-				<div class=ind>
+				<ul>
 					If you don't know what something does, don't touch it.<br>
-					<b>especially</b> IDU mode.
-				</div>
+				</ul>
 			<h2>How can I make the browser open on this page?</h2>
 				<ul>
-					<li>Use Al Azif's DNS: 165.227.83.145 and 192.241.221.79</li>
+					<li>Use Al Azif's DNS: 165.227.83.145 and 192.241.221.79 (you really should use this all the time because it blocks PSN)</li>
 					<li>This makes the browser homepage and user guide redirect to Al Azif's exploit host</li>
-					<li>Press L2 and enter this in the "Custom JS URL" field: <code>https://lesking72.github.io/ps4/redirect.js</code></li>
+					<li>Press L2 and enter <code>https://lesking72.github.io/ps4/redirect.js</code> in the "Custom JS URL" field</li>
 					<li>Click submit, then refresh the page</li>
 				</ul>
 			<h2>I have other questions/comments/hate mail</h2>
-				<div class=ind>
+				<ul>
 					Send it to Les#5465.
-				</div>
+				</ul>
 			<h2>Miscellaneous Tips</h2>
 				<ul>
 					<li>For FTP, use PS4-Xplorer or GoldHEN so you won't need to run the exploit multiple times.</li>
+					<li>Custom fan thresholds persist until the power is disconnected; even across cold boots.</li>
 					<li>The legacy netcat payload is still available at <a href="netcat_legacy/index.html">netcat_legacy/index.html</a> if you need it for whatever reason.</li>
-					<li>"i PUsh bUTtons I SHoUldT" exits IDU mode. Again, <b>don't enable IDU mode.</b></li>
 					<li>The dummy folders created by Disable Updates may get deleted after kernel panics.</li>
 					<li>The self-host zip is <a class=btn href="https://github.com/Lesking72/ps4/archive/refs/heads/master.zip">here</a>.</li>
 				</ul>
             <h2>Credits:</h2>
-                <div class=ind>
+                <ul>
 					For this host:<br>
-					legacy netcat page &amp; VTX HEN: <a href="https://github.com/ChendoChap/">ChendoChap</a>,<br>
+					legacy netcat page &amp; VTX HEN for 7.02: <a href="https://github.com/ChendoChap/">ChendoChap</a>,<br>
 					Exploit, Mira & Linux payloads stolen from <a href="https://github.com/sleirsgoevy/ps4jb">Sleirsgoevy</a><br>
 					GoldHEN: <a href="https://github.com/SiSTR0">SiSTRo</a><br>
-        			Utility payloads: <a href="https://github.com/Scene-Collective/ps4-payload-repo">scene-collective</a>.<br>
+        			Utility payloads: <a href="https://github.com/Scene-Collective/ps4-payload-repo">Al Azif</a>.<br>
 					<br>
 					For the exploit in general:<br>
 					Synacktiv - WebKit exploit, Sleirsgoevy ported it to 7.0x<br>
 					Andy Nguyen - kernel exploit<br>
 					tihmstar - 7.02 offsets in the Linux loader<br>
-				</div>
+				</ul>
     </body>
 </html>

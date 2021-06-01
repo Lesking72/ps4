@@ -9,13 +9,18 @@
 			h2 {
 				margin-bottom: 0;
 			}
-			.ind {
-				margin-left: 3.5em;
-			}
         </style>
     </head>
     <body>
         <h1>Changelog</h1>
+			<h2>2021-05-31</h2>
+			<ul>
+				<li>Updated Linux loaders</li>
+				<li>Removed Kernel Clock because it doesn't work on firmwares newer than 5.07</li>
+				<li>Removed the IDU exit payload; it's redundant because IDU can be turned off in the debug settings.</li>
+				<li>Removed the background from exploit.html because of speculation that it affects the success rate.</li>
+				<li>General system stability improvements to enhance the user's experience</li>
+			</ul>
 			<h2>2021-04-09</h2>
 			<ul>
 				<li>Updated GoldHEN to 1.1</li>
@@ -27,6 +32,7 @@
 			<h2>2021-03-22</h2>
 			<ul>
 				<li>All payloads now use the same launching method as Sleirsgoevy's host.</li>
+				<li>The success rate will be exactly the same, but it reduces clutter on the backend.</li>
 				<li>Legacy netcat is still available at <a href="netcat_legacy/index.html">netcat_legacy/index.html</a></li>
 				<li>Moved files to their own repository</li>
 				<li>Added an IDU exit payload</li>
@@ -34,7 +40,7 @@
 			</ul>
 			<h2>2021-03-21</h2>
 				<ul>
-					<li>Added GoldHEN</li>
+					<li>Added GoldHEN by SiSTRo</li>
 					<ul>
 						<li>Homebrew Enabler</li>
 						<li>Debug Settings</li>
@@ -51,7 +57,6 @@
 						<li>Persistent FTP on port 2121</li>
 						<li>FW Update Block</li>
 					</ul>
-					<li>Added premade cache for automatic redirecting (see info.html)</li>
 				</ul>
 			<h2>2021-03-02</h2>
 				<ul>
@@ -69,12 +74,10 @@
 					<ul>
 						<li>Detailed status is now displayed in the footer</li>
 						<li>The page reloads itself when the cache is updated</li>
-						<li>The associated JS doesn't run if the user-agent check fails</li>
 					</ul>
 					<li>Cleaned up the footer</li>
 					<li>Cleaned up info.html</li>
 					<li>Added changelog.html</li>
-					<li>Tabs vs. spaces is now consistent... in index.html</li>
 					<li>General system stability improvements to enhance the user's experience&trade;</li>
 				</ul>
     </body>
