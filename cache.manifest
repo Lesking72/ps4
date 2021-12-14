@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2021-12-13 15:50 EST
+# 2021-12-14 15:49 EST
 
 bg.jpg
 index.html
@@ -17,7 +17,18 @@ payloads/goldhen-2.0b.js
 payloads/linux.js
 payloads/linux-3gb.js
 payloads/mira.js
+payloads_bin/App2USB.bin
+payloads_bin/Disable-Updates.bin
+payloads_bin/Dumper.bin
+payloads_bin/Enable-Browser.bin
+payloads_bin/Enable-Updates.bin
+payloads_bin/Fan-Threshold.bin
+payloads_bin/History-Blocker.bin
+payloads_bin/Kernel-Dumper.bin
+payloads_bin/Restore.bin
+payloads_bin/RIF-Renamer.bin
 utils/702.js
+utils/binloader.js
 utils/int64.js
 utils/jb-c-code.js
 utils/mira.js
