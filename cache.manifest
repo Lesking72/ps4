@@ -13,7 +13,7 @@ netcat_legacy/rop.js
 netcat_legacy/userland.js
 netcat_legacy/utils.js
 payloads/goldhen-1.1.js
-payloads/goldhen-2.0b2.js
+payloads/goldhen-2.1.js
 payloads/linux.js
 payloads/linux-3gb.js
 payloads/mira.js
