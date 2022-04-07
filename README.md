@@ -7,7 +7,10 @@ Clone this repository or [download the zip](https://github.com/Lesking72/ps4/arc
 ## Adding your own payloads
 Payloads are stored as a uInt8 byte array.  
 After converting your payload to this format, place its JS file in /payloads and
-link to `exploit.html#f=<js_file_name>`
+link to `exploit.html#f=<js_file_name>`.
+
+This host also supports sending bin-format payloads to GoldHEN's bin loader. These
+payloads are placed in /payloads_bin and loaded by calling `binload('name');`.
 
 ## Credits
 TheFloW - kernel exploit  
