@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2022-04-10 20:50 EDT
+# 2022-04-10 22:05 EDT
 
 bg.jpg
 index.html
@@ -13,7 +13,7 @@ netcat/rop.js
 netcat/userland.js
 netcat/utils.js
 payloads/goldhen_1.1.txt
-payloads/goldhen_2.2.2.js
+payloads/goldhen_2.2.2.txt
 payloads/linux.txt
 payloads/linux-3gb.txt
 payloads_bin/App2USB.bin
