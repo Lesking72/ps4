@@ -27,7 +27,7 @@ var checkStatus = function(onLoadEndCallback) {
     var req = new XMLHttpRequest();
     req.open("POST", HOST + "/status");
     req.send();
-    req.onerror = function(){ alert("Load error. Are you sure the bin loader is enabled?"); };
+
     req.onload = function (event) {
         if (req.status === 200) {
             try {
@@ -43,10 +43,6 @@ var checkStatus = function(onLoadEndCallback) {
 }
 
 var binload = function(binfile) {
-    if (location.protocol != 'http:') {
-        alert("Self-host to use the bin loader!");
-        return;
-    }
     PAYLOAD = "payloads_bin/" + binfile + ".bin";
     getPayload(PAYLOAD, function (req) {
         if ((req.status === 200 || req.status === 304) && req.response) {
