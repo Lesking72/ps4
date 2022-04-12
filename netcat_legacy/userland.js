@@ -290,7 +290,6 @@ function stage2() {
       new_thr.fcall(libKernelBase.add32(OFFSET_lk_pthread_exit), 0);
     });
     loader_thr();
-    document.cookie = "kex=0";
     alert("waiting for payload");
   
 }

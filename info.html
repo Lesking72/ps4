@@ -14,6 +14,10 @@
     <body>
         <h1>Info/FAQ</h1>
 			<h2>What is this?</h2>
+			<ul>
+				This host is based on Sleirsgoevy's 7.02 exploit. I made it because there were no hosts with utility payloads<br>
+				at the time.
+			</ul>
 			<h2>Should I update to firmware X?</h2>
 			<ul>
 				9.00 has a higher success rate, but requires connecting a specially-formatted USB drive to trigger the exploit.<br>
@@ -29,6 +33,10 @@
 					<li>If you keep getting OOM, back out of the browser and open the settings menu, then go back to the browser.<br>
 					-This causes the webkit process to restart. Alternatively, power off completely and try again.</li>
 					<li>Powering off completely seems work better for me than restarting. This is based purely on my experience, your mileage may vary.</li>
+				</ul>
+			<h2>Should the screen go black when starting Mira?</h2>
+				<ul>
+					Mira restarts the shell when it loads, this behavior is normal.
 				</ul>
 			<h2>Whats X in the debug settings?</h2>
 				<ul>
@@ -47,21 +55,23 @@
 				</ul>
 			<h2>Miscellaneous Tips</h2>
 				<ul>
-                    <li>Additional VRAM options for Linux are available <a href="https://github.com/Nazky/PS4Linux-Payloads">here</a>.
 					<li>Custom fan thresholds persist until the power is disconnected; even across cold boots.</li>
+					<li>The legacy netcat payload is still available at <a href="netcat_legacy/index.html">netcat_legacy/index.html</a> if you need it for whatever reason.</li>
 					<li>The dummy folders created by Disable Updates may get deleted after kernel panics.</li>
-                    <li>GoldHEN automatically creates these dummy folders.</li>
 					<li>The self-host zip is <a class=btn href="https://github.com/Lesking72/ps4/archive/refs/heads/master.zip">here</a>.</li>
 				</ul>
             <h2>Credits:</h2>
                 <ul>
-					Sleirsgoevy, Nazky and tihmstar - Linux Loaders<br>
-					SiSTRo - GoldHEN<br>
-                    Al Azif - Utility payloads, base64 payload loader<br>
-					Synacktiv - WebKit exploit<br>
-					Sleirsgoevy - ported WebKit exploit to 7.02<br>
+					For this host:<br>
+					Exploit, Mira & Linux payloads stolen from <a href="https://github.com/sleirsgoevy/ps4jb">Sleirsgoevy</a><br>
+					GoldHEN: <a href="https://github.com/SiSTR0">SiSTRo</a><br>
+                    Al Azif: Utility payloads<br>
+                    <br>
+					For the exploit in general:<br>
+					Synacktiv - WebKit exploit, Sleirsgoevy ported it to 7.0x<br>
 					Andy Nguyen - kernel exploit<br>
-                    ChendoChap - Full chain for 7.02
+					tihmstar - 7.02 offsets in the Linux loader<br>
+                    This host previously used work by ChendoChap and Znullptr<br>
 				</ul>
     </body>
 </html>

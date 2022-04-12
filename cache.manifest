@@ -1,21 +1,22 @@
 CACHE MANIFEST
-# 2022-04-10 20:50 EDT
+# 2022-04-07 13:37 EDT
 
 bg.jpg
 index.html
 info.html
 changelog.html
 exploit.html
-netcat/index.html
-netcat/int64.js
-netcat/ps4.js
-netcat/rop.js
-netcat/userland.js
-netcat/utils.js
-payloads/goldhen_1.1.txt
+netcat_legacy/index.html
+netcat_legacy/int64.js
+netcat_legacy/ps4.js
+netcat_legacy/rop.js
+netcat_legacy/userland.js
+netcat_legacy/utils.js
+payloads/goldhen-1.1.js
 payloads/goldhen_2.2.2.js
-payloads/linux.txt
-payloads/linux-3gb.txt
+payloads/linux.js
+payloads/linux-3gb.js
+payloads/mira.js
 payloads_bin/App2USB.bin
 payloads_bin/Backup.bin
 payloads_bin/Disable-Updates.bin
@@ -25,15 +26,13 @@ payloads_bin/Enable-Updates.bin
 payloads_bin/Fan-Threshold.bin
 payloads_bin/History-Blocker.bin
 payloads_bin/Kernel-Dumper.bin
-payloads_bin/Linux-1GB.bin
-payloads_bin/Linux-3GB.bin
-payloads_bin/Orbis-Toolbox.bin
 payloads_bin/Restore.bin
 payloads_bin/RIF-Renamer.bin
+utils/702.js
 utils/binloader.js
 utils/int64.js
-utils/payload.js
+utils/jb-c-code.js
+utils/mira.js
+utils/mira-c-code.js
 utils/ps4.js
-utils/rop.js
-utils/userland.js
 utils/utils.js
