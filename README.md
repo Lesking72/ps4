@@ -8,7 +8,8 @@ Clone this repository or [download the zip](https://github.com/Lesking72/ps4/arc
 "primary" payloads such as HENs should be converted to base64 and put in /payloads. If creating these files with a tool like base64encode.org, make sure the destination character set is set to binary. After converting your payload to this format, put it in /payloads and link to `exploit.html#<file_name>`.
 
 This host also supports sending bin-format payloads to GoldHEN's bin loader. These
-payloads are placed in /payloads_bin and loaded by calling `binload('name');`.
+payloads are placed in /payloads_bin and loaded by calling `binload('name');`. This function does not
+work when the webpage is loaded over https.
 
 ## Credits
 Sleirsgoevy, Nazky and tihmstar - Linux Loaders  
