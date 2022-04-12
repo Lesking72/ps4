@@ -247,7 +247,6 @@ function stage2() {
   
   document.cookie = "kex=0";
   alert("You're all set!");
-  while(1){};
 }
 
 function stage3() {
