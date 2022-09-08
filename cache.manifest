@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2022-04-12 15:48 EDT
+# 2022-09-08 04:27 EDT
 
 bg.jpg
 index.html
@@ -14,6 +14,7 @@ netcat_legacy/userland.js
 netcat_legacy/utils.js
 payloads/goldhen-1.1.js
 payloads/goldhen_2.2.2.js
+payloads/history-blocker.js
 payloads/linux.js
 payloads/linux-3gb.js
 payloads/mira.js
@@ -24,8 +25,8 @@ payloads_bin/Dumper.bin
 payloads_bin/Enable-Browser.bin
 payloads_bin/Enable-Updates.bin
 payloads_bin/Fan-Threshold.bin
-payloads_bin/History-Blocker.bin
 payloads_bin/Kernel-Dumper.bin
+payloads_bin/Orbis-Toolbox.bin
 payloads_bin/Restore.bin
 payloads_bin/RIF-Renamer.bin
 utils/702.js

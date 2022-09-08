@@ -13,11 +13,12 @@
     </head>
     <body>
         <h1>Info/FAQ</h1>
-			<h2>What is this?</h2>
-			<ul>
-				This host is based on Sleirsgoevy's 7.02 exploit. I made it because there were no hosts with utility payloads<br>
-				at the time.
-			</ul>
+            <h2>HB Store locks up my console!</h2>
+            <ul>
+                This is a known issue when loading payloads through Mira Loader. I tried using an alternate method to launch<br>
+                payloads, but it caused more obvious issues. If you want to use the HB Store,<br>
+                load GoldHEN with the bin loader or download packages from pkg-zone.com and install them manually.
+            </ul>
 			<h2>Should I update to firmware X?</h2>
 			<ul>
 				9.00 has a higher success rate, but requires connecting a specially-formatted USB drive to trigger the exploit.<br>
@@ -28,19 +29,16 @@
 			<h2>Do I really need to restart after each failure?</h2>
 				<ul>
 					<li>If you get an "out of memory" error, click OK. This error will not harm your console.</li>
-					<li>If you get "failed to set up a relative ___ primitive" restart.</li>
-					<li>If you get "failed to find slave" turn the console off using the power button, without closing the dialog box.<br>
+					<li>If you get any other error, restart.</li>
+					<li>If you get "failed to find slave" enjoy your kernel panic.<br>
 					<li>If you keep getting OOM, back out of the browser and open the settings menu, then go back to the browser.<br>
 					-This causes the webkit process to restart. Alternatively, power off completely and try again.</li>
 					<li>Powering off completely seems work better for me than restarting. This is based purely on my experience, your mileage may vary.</li>
 				</ul>
-			<h2>Should the screen go black when starting Mira?</h2>
-				<ul>
-					Mira restarts the shell when it loads, this behavior is normal.
-				</ul>
 			<h2>Whats X in the debug settings?</h2>
 				<ul>
 					If you don't know what something does, you don't need it and shouldn't touch it.<br>
+                    In fact, stay out of the debug settings. Everything you need (the package installer) is in GoldHEN settings.
 				</ul>
 			<h2>How can I make the browser open on this page?</h2>
 				<ul>
@@ -56,20 +54,20 @@
 			<h2>Miscellaneous Tips</h2>
 				<ul>
 					<li>Custom fan thresholds persist until the power is disconnected; even across cold boots.</li>
-					<li>The legacy netcat payload is still available at <a href="netcat_legacy/index.html">netcat_legacy/index.html</a> if you need it for whatever reason.</li>
 					<li>The dummy folders created by Disable Updates may get deleted after kernel panics.</li>
+                    <li>GoldHEN creates the aforementioned folders when it starts.</li>
 					<li>The self-host zip is <a class=btn href="https://github.com/Lesking72/ps4/archive/refs/heads/master.zip">here</a>.</li>
 				</ul>
             <h2>Credits:</h2>
                 <ul>
 					For this host:<br>
-					Exploit, Mira & Linux payloads stolen from <a href="https://github.com/sleirsgoevy/ps4jb">Sleirsgoevy</a><br>
-					GoldHEN: <a href="https://github.com/SiSTR0">SiSTRo</a><br>
-                    Al Azif: Utility payloads<br>
+					Sleirsgoevy - Exploit, Mira & Linux payloads<br>
+					SiSTRo - GoldHEN<br>
+                    Al Azif - Utility payloads<br>
                     <br>
 					For the exploit in general:<br>
 					Synacktiv - WebKit exploit, Sleirsgoevy ported it to 7.0x<br>
-					Andy Nguyen - kernel exploit<br>
+					Andy Nguyen - Kernel exploit<br>
 					tihmstar - 7.02 offsets in the Linux loader<br>
                     This host previously used work by ChendoChap and Znullptr<br>
 				</ul>
